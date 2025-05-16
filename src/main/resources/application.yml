@@ -1,0 +1,19 @@
+---
+server:
+  port: 8081
+---
+
+spring:
+  application:
+    name: tourfound
+---
+spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/tourFound
+    username: root
+    password: rabbit2007
+  jpa:
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    show-sql: true
